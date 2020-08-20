@@ -11,7 +11,7 @@ This workshop is about robotic fundamentals and robotic brick assembly using KUK
 * Keynote: Prof. Shun
 * Project: Brick Pillar / Wall
 
-## Course files
+## Reference
 
 * [**Slide**](https://docs.google.com/presentation/d/1dGtycFIzau4Msu58ata_v_ZHhF-7AlEVLNWrIreXpH0/edit?usp=sharing)
 * [**Safety rules**](https://github.com/rac-coon-ncku/rac_coon_public/blob/master/safety_rules.md)
