@@ -17,7 +17,7 @@ This workshop is about robotic fundamentals and robotic brick assembly using KUK
 * [**Safety rules**](https://github.com/rac-coon-ncku/rac_coon_public/blob/master/safety_rules.md)
 
 ## Software Requirements
-Please download and installed the following softwares before the workshop. 
+Please download and install the following softwares before the workshop. 
 
 * Rhino 6 and Grasshopper for Windows ([90 days evaluation version](https://www.rhino3d.com/download/rhino-for-windows/6/evaluation))
 * KUKA | prc ([community edition](https://www.robotsinarchitecture.org/kukaprc))
