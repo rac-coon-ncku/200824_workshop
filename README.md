@@ -11,6 +11,9 @@ This workshop is about robotic fundamentals and robotic brick assembly using KUK
 * Keynote: Prof. Sheng
 * Project: Brick Pillar / Wall
 
+## Schedule
+![schedule](https://github.com/rac-coon-ncku/200824_workshop/blob/master/schedule.png)
+
 ## Documents
 
 * **Slide (WIP)**
