@@ -25,3 +25,4 @@ Please download and install the following softwares before the workshop.
 * Rhino 6 and Grasshopper for Windows ([90 days evaluation version](https://www.rhino3d.com/download/rhino-for-windows/6/evaluation))
 * KUKA | prc ([community edition](https://www.robotsinarchitecture.org/kukaprc))
 * (Optional) [Visual Studio Code](https://code.visualstudio.com/) or [Notepad++](https://notepad-plus-plus.org/downloads/)
+* (Optional) [Zoom](https://zoom.us)
