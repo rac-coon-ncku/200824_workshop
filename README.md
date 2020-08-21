@@ -5,15 +5,15 @@ This workshop is about robotic fundamentals and robotic brick assembly using KUK
 ## Overview
 
 * Introduction / Robotic fundamentals
-* Practice: Jog mode
+* Practice: Jogging mode
 * Practice: Move robots along a path
 * Practice: Move a brick from here to there
-* Keynote: Prof. Shun
+* Keynote: Prof. Sheng
 * Project: Brick Pillar / Wall
 
-## Reference
+## Documents
 
-* [**Slide (WIP)**](https://docs.google.com/presentation/d/1dGtycFIzau4Msu58ata_v_ZHhF-7AlEVLNWrIreXpH0/edit?usp=sharing)
+* **Slide (WIP)**
 * [**Safety rules**](https://github.com/rac-coon-ncku/rac_coon_public/blob/master/safety_rules.md)
 
 ## Software Requirements
