@@ -1,6 +1,6 @@
 # Workshop 2020.08.24-29
 
-This workshop is about robotic fundamentals and robotic brick assembly using KUKA | prc.
+This workshop is about fundamentals of industrial robots and robotic brick assembly using KUKA | prc.
 
 ## Overview
 
