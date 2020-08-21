@@ -20,7 +20,8 @@ This workshop is about fundamentals of industrial robots and robotic brick assem
 * [**Safety rules**](https://github.com/rac-coon-ncku/rac_coon_public/blob/master/safety_rules.md)
 
 ## Software Requirements
-Please prepare your own laptop and extension cord. Also, please download and install the following softwares before the workshop. 
+Please prepare your own laptop and extension cord.
+Also, please download and install the following softwares before the workshop. 
 
 * Rhino 6 and Grasshopper for Windows ([90 days evaluation version](https://www.rhino3d.com/download/rhino-for-windows/6/evaluation))
 * KUKA | prc ([community edition](https://www.robotsinarchitecture.org/kukaprc))
