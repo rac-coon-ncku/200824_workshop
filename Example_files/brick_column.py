@@ -79,7 +79,7 @@ class Brick_column(object):
 
         # Create contour curves
         contour_curves = rg.Brep.CreateContourCurves(
-            self.srf, srf_bounding_box.Min, contour_end_pt, self.brick_dim[2])
+            self.srf, contour_start_pt, contour_end_pt, self.brick_dim[2])
 
         start_pt_to_align = None
         for current_layer_index, contour_curve in enumerate(contour_curves):
