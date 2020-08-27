@@ -19,6 +19,7 @@ This workshop is about fundamentals of industrial robots and robotic brick assem
 * [**Safety rules**](https://github.com/rac-coon-ncku/rac_coon_public/blob/master/safety_rules.md)
 * [**Slide Day 1**](https://docs.google.com/presentation/d/1dGtycFIzau4Msu58ata_v_ZHhF-7AlEVLNWrIreXpH0/edit?usp=sharing)
 * [**Slide Day 2**](https://docs.google.com/presentation/d/18b0mihsnC-TrBkMpD0Mm9GARnVEdsj9rIa7aLJVCODE/edit?usp=sharing)
+* [**Robots shift**](https://docs.google.com/spreadsheets/d/192TfKYafCvH97FVlGVG4AZjupWEPx3JX0MQWK8OJD2Q/edit?usp=sharing)
 
 ## Software Requirements
 Please prepare your own laptop and extension cord.
