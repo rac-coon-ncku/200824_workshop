@@ -84,6 +84,7 @@ class Brick_column(object):
         start_pt_to_align = None
         for current_layer_index, contour_curve in enumerate(contour_curves):
             # reset the domain of the curves
+            layer_bricks = []
             contour_curve.Domain = rg.Interval(0, 1)
 
             # Align the seam of every curve
@@ -109,38 +110,39 @@ class Brick_column(object):
             for current_pt_index, divide_param in enumerate(divide_params):
                 if contour_curve.IsClosed:
                     if current_layer_index % 2 == 0 and current_pt_index % 2 == 0:
-                        self.bricks.append(self._place_brick_along_curve(
+                        layer_bricks.append(self._place_brick_along_curve(
                             contour_curve, divide_param
                         ))
                     elif current_layer_index % 2 == 1 and current_pt_index % 2 == 1:
-                        self.bricks.append(self._place_brick_along_curve(
+                        layer_bricks.append(self._place_brick_along_curve(
                             contour_curve, divide_param
                         ))
                 else:
                     # for open curves
                     if current_layer_index % 2 == 0:
                         if current_pt_index == 0:
-                            self.bricks.append(self._place_brick_along_curve(
+                            layer_bricks.append(self._place_brick_along_curve(
                                 contour_curve,
                                 contour_curve.LengthParameter(
                                     self.brick_dim[1]/2)[1],
                                 "header"
                             ))
                         elif current_pt_index == len(divide_params) - 1:
-                            self.bricks.append(self._place_brick_along_curve(
+                            layer_bricks.insert(1, self._place_brick_along_curve(
                                 contour_curve,
                                 contour_curve.LengthParameter(
                                     curve_length - self.brick_dim[1]/2)[1],
                                 "header"
                             ))
                         elif current_pt_index % 2 == 0:
-                            self.bricks.append(self._place_brick_along_curve(
+                            layer_bricks.append(self._place_brick_along_curve(
                                 contour_curve, divide_param
                             ))
                     elif current_layer_index % 2 == 1 and current_pt_index % 2 == 1:
-                        self.bricks.append(self._place_brick_along_curve(
+                        layer_bricks.append(self._place_brick_along_curve(
                             contour_curve, divide_param
                         ))
+            self.bricks.extend(layer_bricks)
             for current_pt_index, divide_param in enumerate(divide_params):
                 debug.append(contour_curve.PointAt(divide_param))
 
